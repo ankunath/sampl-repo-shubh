@@ -1,0 +1,24 @@
+# Language setting
+language: python
+
+# Version number
+python:
+  - 2.6
+  - 2.7
+  - 3.2
+  - 3.3
+  - 3.4
+  - 3.5
+  - pypy
+  - pypy3
+  - 2.64
+  - 2.72
+  - 3.25
+  - 3.37
+  - 3.41
+  - 3.53
+  - pypyu
+
+build:
+  ci:
+    - python --version
